@@ -1,5 +1,6 @@
-# Description
-Makefile Dependency Simulator 2017
+# Makefile Dependency Simulator 2017
+
+## Description
 
 Basically simulates the dependencies of updating files based on a primitive "makefile" created by the user. So when a file is updated, only the required files are rebuilt.
 
