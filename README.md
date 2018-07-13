@@ -4,9 +4,9 @@ Makefile Dependency Simulator 2017
 Basically simulates the dependencies of updating files based on a primitive "makefile" created by the user. So when a file is updated, only the required files are rebuilt.
 
 Input commands are as follows:
-`target: source` -> creates a dependency relation where `target` file depends on `source` file
-`touch file` -> tells the program that `file` has been updated.
-`make file` -> this tells the program that `file` should be rebuilt from the files it depends on
+- `target: source` -> creates a dependency relation where `target` file depends on `source` file
+- `touch file` -> tells the program that `file` has been updated.
+- `make file` -> this tells the program that `file` should be rebuilt from the files it depends on
 
 ### Example 1: 
 
